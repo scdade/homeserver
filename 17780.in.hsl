@@ -1,0 +1,27 @@
+# -*- coding: iso8859-1 -*-
+### LUXTRONIC fuer Bjoern
+
+5000|"LUXTRONIC fuer Bjoern V1 WW-Mode"|0|4|"IP-ADDR"|"AUTO"|"PARTY"|"AUS"|1|"UNSUSED"
+5001|4|1|1|2|1
+
+#eingaenge
+5002|1|"192.168.178.23"|1
+5002|2|0|0
+5002|3|0|0
+5002|4|0|0
+
+#zwei interne nicht remanente variablen
+5003|1||0
+5003|2||0
+
+#und die ausgaenge
+5004|1||0|1|0
+
+5012|0|"EI"|"eval(compile(__import__('base64').decodestring('%INNERSCRIPT%'),'LUXTRONIC','exec'))"|""|0|0|0|0
+
+5012|1|"EI"|"luxtronic(pItem,locals())"|"1"|0|1|1|0
+5012|0|"EC[2]"|"SN[1].setWarmWaterMode(0)"|""|1|0|0|0#AUTO
+5012|0|"EC[3]"|"SN[1].setWarmWaterMode(2)"|""|1|0|0|0#PARTY
+5012|0|"EC[4]"|"SN[1].setWarmWaterMode(4)"|""|1|0|0|0#OFF
+
+

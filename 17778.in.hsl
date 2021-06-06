@@ -1,0 +1,210 @@
+# -*- coding: iso8859-1 -*-
+### LUXTRONIC fuer Bjoern
+
+5000|"LUXTRONIC V57 update freq"|0|7|"IP-ADDR"|"Apply WW-Temp"|"WW-Temp"|"Trigger"|"Update every x seconds"|"Apply FHB-Temp"|"FHB-Temp"|91|"ErrorCode"|"Temperatur_TVL_Vorlauf"|"Temperatur_TRL_Ruecklauf"|"Sollwert_TRL_HZ_Ruecklauf_Soll"|"Temperatur_TRL_ext_Ruecklauf_Extern"|"Temperatur_THG_Heissgas"|"Temperatur_TA_Aussenfuehler"|"Mitteltemperatur"|"Temperatur_TBW"|"Einst_BWS_akt"|"Temp_TWE_Waermequelle_EIN"|"Temp_TWA_Waermequelle_AUS"|"Temperatur_TFB1"|"Temperatur_RFV"|"Temperatur_TSK"|"Temperatur_TEE"|"BWTin"|"AVout"|"BUPout"|"HUPout"|"MA1out"|"MZ1out"|"VBOout"|"VD1out"|"ZIPout"|"ZUPout"|"ZW1out"|"FP2out"|"Zaehler_BetrZeitVD1"|"Zaehler_BetrZeitImpVD1_Impulse_Verdichter"|"Zaehler_BetrZeitWP"|"Zaehler_BetrZeitHz"|"Zaehler_BetrZeitBW"|"Zaehler_BetrZeitKue"|"Time_WPein_akt"|"Timer_EinschVerz"|"Time_SSPAUS_akt"|"Time_SSPEIN_akt"|"Time_VDStd_akt"|"Time_HRM_akt"|"Time_HRW_akt"|"Time_LGS_akt"|"Time_SBW_akt"|"Code_WP_akt"|"WP_BZ_akt"|"ERROR_Time0"|"ERROR_Time1"|"ERROR_Time2"|"ERROR_Time3"|"ERROR_Time4"|"ERROR_Nr0"|"ERROR_Nr1"|"ERROR_Nr2"|"ERROR_Nr3"|"ERROR_Nr4"|"AnzahlFehlerInSpeicher"|"Switchoff_file_Nr0"|"Switchoff_file_Nr1"|"Switchoff_file_Nr2"|"Switchoff_file_Nr3"|"Switchoff_file_Nr4"|"Switchoff_file_Time0"|"Switchoff_file_Time1"|"Switchoff_file_Time2"|"Switchoff_file_Time3"|"Switchoff_file_Time4"|"HauptMenuStatus_Zeile1"|"HauptMenuStatus_Zeile2"|"HauptMenuStatus_Zeile3"|"HauptMenuStatus_Zeit"|"HauptMenuAHP_Stufe"|"HauptMenuAHP_Temp"|"HauptMenuAHP_Zeit"|"SH_BWW"|"SH_HZ"|"SH_MK1"|"SH_MK2"|"Einst_Kurzrpgramm"|"AktuelleTimeStamp"|"Temperatur_TFB3"|"FP3out"|"Time_AbtIn"|"SH_SW"|"Zaehler_BetrZeitSW"|"AnalogIn"|"WMZ_Heizung"|"WMZ_Brauchwasser"|"WMZ_Seit"|"WMZ_Durchfluss"|"Time_Heissgas"|"UpdateCounter"
+5001|7|91|1|2|1
+
+#eingaenge
+5002|1|"192.168.178.23"|1
+5002|2| 0.0|0
+5002|3|42.0|0
+5002|4| 0.0|0
+5002|5|30.0|0
+5002|6| 0.0|0
+5002|7|22.0|0
+
+#zwei interne nicht remanente variablen
+5003|1||0
+5003|2||0
+
+#und die ausgaenge
+5004|1||0|1|0
+5004|2||0|1|0
+5004|3||0|1|0
+5004|4||0|1|0
+5004|5||0|1|0
+5004|6||0|1|0
+5004|7||0|1|0
+5004|8||0|1|0
+5004|9||0|1|0
+5004|10||0|1|0
+5004|11||0|1|0
+5004|12||0|1|0
+5004|13||0|1|0
+5004|14||0|1|0
+5004|15||0|1|0
+5004|16||0|1|0
+5004|17||0|1|0
+5004|18||0|1|0
+5004|19||0|1|0
+5004|20||0|1|0
+5004|21||0|1|0
+5004|22||0|1|0
+5004|23||0|1|0
+5004|24||0|1|0
+5004|25||0|1|0
+5004|26||0|1|0
+5004|27||0|1|0
+5004|28||0|1|0
+5004|29||0|1|0
+5004|30||0|1|0
+5004|31||0|1|0
+5004|32||0|1|0
+5004|33||0|1|0
+5004|34||0|1|0
+5004|35||0|1|0
+5004|36||0|1|0
+5004|37||0|1|0
+5004|38||0|1|0
+5004|39||0|1|0
+5004|40||0|1|0
+5004|41||0|1|0
+5004|42||0|1|0
+5004|43||0|1|0
+5004|44||0|1|0
+5004|45||0|1|0
+5004|46||0|1|0
+5004|47||0|1|0
+5004|48||0|1|0
+5004|49||0|1|0
+5004|50||0|1|0
+5004|51||0|1|0
+5004|52||0|1|0
+5004|53||0|1|0
+5004|54||0|1|0
+5004|55||0|1|0
+5004|56||0|1|0
+5004|57||0|1|0
+5004|58||0|1|0
+5004|59||0|1|0
+5004|60||0|1|0
+5004|61||0|1|0
+5004|62||0|1|0
+5004|63||0|1|0
+5004|64||0|1|0
+5004|65||0|1|0
+5004|66||0|1|0
+5004|67||0|1|0
+5004|68||0|1|0
+5004|69||0|1|0
+5004|70||0|1|0
+5004|71||0|1|0
+5004|72||0|1|0
+5004|73||0|1|0
+5004|74||0|1|0
+5004|75||0|1|0
+5004|76||0|1|0
+5004|77||0|1|0
+5004|78||0|1|0
+5004|79||0|1|0
+5004|80||0|1|0
+5004|81||0|1|0
+5004|82||0|1|0
+5004|83||0|1|0
+5004|84||0|1|0
+5004|85||0|1|0
+5004|86||0|1|0
+5004|87||0|1|0
+5004|88||0|1|0
+5004|89||0|1|0
+5004|90||0|1|0
+5004|91||0|1|0
+
+5012|0|"EI"|"eval(compile(__import__('base64').decodestring('%INNERSCRIPT%'),'LUXTRONIC','exec'))"|""|0|0|0|0
+
+5012|1|"EI"|"luxtronic(pItem,locals())"|"1"|0|1|1|0
+5012|0|"EC[4]"|"SN[1].requestUpdate()"|""|1|0|0|0
+5012|0|"1"|"SN[1].getUpdateCounter()"|""|91|0|0|0		#"AN[91] setzen"
+5012|0|"(EI==0)"|"SN[1].updateStatus(EN[1])"|""|1|0|0|0
+5012|0|"(EI==0)"|"SN[1].getValue(10)"|""|2|0|0|0		#"Temperatur_TVL_Vorlauf"
+5012|0|"(EI==0)"|"SN[1].getValue(11)"|""|3|0|0|0		#"Temperatur_TRL_Ruecklauf"
+5012|0|"(EI==0)"|"SN[1].getValue(12)"|""|4|0|0|0		#"Sollwert_TRL_HZ_Ruecklauf_Soll"
+5012|0|"(EI==0)"|"SN[1].getValue(13)"|""|5|0|0|0		#"Temperatur_TRL_ext_Ruecklauf_Extern"
+5012|0|"(EI==0)"|"SN[1].getValue(14)"|""|6|0|0|0		#"Temperatur_THG_Heissgas"
+5012|0|"(EI==0)"|"SN[1].getValue(15)"|""|7|0|0|0		#"Temperatur_TA_Aussenfuehler"
+5012|0|"(EI==0)"|"SN[1].getValue(16)"|""|8|0|0|0		#"Mitteltemperatur"
+5012|0|"(EI==0)"|"SN[1].getValue(17)"|""|9|0|0|0		#"Temperatur_TBW"
+5012|0|"(EI==0)"|"SN[1].getValue(18)"|""|10|0|0|0		#"Einst_BWS_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(19)"|""|11|0|0|0		#"Temperatur_TWE_Waermequelle_EIN"
+5012|0|"(EI==0)"|"SN[1].getValue(20)"|""|12|0|0|0		#"Temperatur_TWA_Waermequelle_AUS"
+5012|0|"(EI==0)"|"SN[1].getValue(21)"|""|13|0|0|0		#"Temperatur_TFB1"
+5012|0|"(EI==0)"|"SN[1].getValue(23)"|""|14|0|0|0		#"Temperatur_RFV"
+5012|0|"(EI==0)"|"SN[1].getValue(26)"|""|15|0|0|0		#"Temperatur_TSK"
+5012|0|"(EI==0)"|"SN[1].getValue(28)"|""|16|0|0|0         #"Temperatur_TEE"
+5012|0|"(EI==0)"|"SN[1].getValue(30)"|""|17|0|0|0         #"BWTin"
+5012|0|"(EI==0)"|"SN[1].getValue(37)"|""|18|0|0|0         #"AVout"
+5012|0|"(EI==0)"|"SN[1].getValue(38)"|""|19|0|0|0         #"BUPout"
+5012|0|"(EI==0)"|"SN[1].getValue(39)"|""|20|0|0|0         #"HUPout"
+5012|0|"(EI==0)"|"SN[1].getValue(40)"|""|21|0|0|0         #"MA1out"
+5012|0|"(EI==0)"|"SN[1].getValue(41)"|""|22|0|0|0         #"MZ1out"
+5012|0|"(EI==0)"|"SN[1].getValue(43)"|""|23|0|0|0         #"VBOout"
+5012|0|"(EI==0)"|"SN[1].getValue(44)"|""|24|0|0|0         #"VD1out"
+5012|0|"(EI==0)"|"SN[1].getValue(46)"|""|25|0|0|0         #"ZIPout" ZirkPumpLaeuft Heiz?
+5012|0|"(EI==0)"|"SN[1].getValue(47)"|""|26|0|0|0         #"ZUPout" ZirkPWW laeuft?
+5012|0|"(EI==0)"|"SN[1].getValue(48)"|""|27|0|0|0         #"ZW1out"
+5012|0|"(EI==0)"|"SN[1].getValue(51)"|""|28|0|0|0         #"FP2out"
+5012|0|"(EI==0)"|"SN[1].getValue(56)"|""|29|0|0|0         #"Zaehler_BetrZeitVD1"
+5012|0|"(EI==0)"|"SN[1].getValue(57)"|""|30|0|0|0         #"Zaehler_BetrZeitImpVD1_Impulse_Verdichter"
+5012|0|"(EI==0)"|"SN[1].getValue(63)"|""|31|0|0|0         #"Zaehler_BetrZeitWP"
+5012|0|"(EI==0)"|"SN[1].getValue(64)"|""|32|0|0|0         #"Zaehler_BetrZeitHz"
+5012|0|"(EI==0)"|"SN[1].getValue(65)"|""|33|0|0|0         #"Zaehler_BetrZeitBW"
+5012|0|"(EI==0)"|"SN[1].getValue(66)"|""|34|0|0|0         #"Zaehler_BetrZeitKue"
+5012|0|"(EI==0)"|"SN[1].getValue(67)"|""|35|0|0|0         #"Time_WPein_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(70)"|""|36|0|0|0         #"Timer_EinschVerz"
+5012|0|"(EI==0)"|"SN[1].getValue(71)"|""|37|0|0|0         #"Time_SSPAUS_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(72)"|""|38|0|0|0         #"Time_SSPEIN_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(73)"|""|39|0|0|0         #"Time_VDStd_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(74)"|""|40|0|0|0         #"Time_HRM_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(75)"|""|41|0|0|0         #"Time_HRW_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(76)"|""|42|0|0|0         #"Time_LGS_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(77)"|""|43|0|0|0         #"Time_SBW_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(78)"|""|44|0|0|0         #"Code_WP_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(80)"|""|45|0|0|0         #"WP_BZ_akt"
+5012|0|"(EI==0)"|"SN[1].getValue(95)"|""|46|0|0|0         #ErrorTime0
+5012|0|"(EI==0)"|"SN[1].getValue(96)"|""|47|0|0|0         #ErrorTime1
+5012|0|"(EI==0)"|"SN[1].getValue(97)"|""|48|0|0|0         #ErrorTime2
+5012|0|"(EI==0)"|"SN[1].getValue(98)"|""|49|0|0|0         #ErrorTime3
+5012|0|"(EI==0)"|"SN[1].getValue(99)"|""|50|0|0|0         #ErrorTime4
+5012|0|"(EI==0)"|"SN[1].getValue(100)"|""|51|0|0|0        #Error0
+5012|0|"(EI==0)"|"SN[1].getValue(101)"|""|52|0|0|0        #Error1
+5012|0|"(EI==0)"|"SN[1].getValue(102)"|""|53|0|0|0        #Error2
+5012|0|"(EI==0)"|"SN[1].getValue(103)"|""|54|0|0|0        #Error3
+5012|0|"(EI==0)"|"SN[1].getValue(104)"|""|55|0|0|0        #Error4
+5012|0|"(EI==0)"|"SN[1].getValue(105)"|""|56|0|0|0        #Anzahl Fehler in Speicher
+5012|0|"(EI==0)"|"SN[1].getValue(106)"|""|57|0|0|0        #SwitchofFileNr0
+5012|0|"(EI==0)"|"SN[1].getValue(107)"|""|58|0|0|0        #SwitchofFileNr1
+5012|0|"(EI==0)"|"SN[1].getValue(108)"|""|59|0|0|0       #SwitchofFileNr2
+5012|0|"(EI==0)"|"SN[1].getValue(109)"|""|60|0|0|0       #SwitchofFileNr3
+5012|0|"(EI==0)"|"SN[1].getValue(110)"|""|61|0|0|0       #SwitchofFileNr4
+5012|0|"(EI==0)"|"SN[1].getValue(111)"|""|62|0|0|0       #SwitchofFileTime0
+5012|0|"(EI==0)"|"SN[1].getValue(112)"|""|63|0|0|0       #SwitchofFileTime1
+5012|0|"(EI==0)"|"SN[1].getValue(113)"|""|64|0|0|0       #SwitchofFileTime2
+5012|0|"(EI==0)"|"SN[1].getValue(114)"|""|65|0|0|0       #SwitchofFileTime3
+5012|0|"(EI==0)"|"SN[1].getValue(115)"|""|66|0|0|0       #SwitchofFileTime4
+5012|0|"(EI==0)"|"SN[1].getValue(117)"|""|67|0|0|0       #HauptmenueStatusZeile_1
+5012|0|"(EI==0)"|"SN[1].getValue(118)"|""|68|0|0|0       #HauptmenueStatusZeile_2
+5012|0|"(EI==0)"|"SN[1].getValue(119)"|""|69|0|0|0       #HauptmenueStatusZeile_3
+5012|0|"(EI==0)"|"SN[1].getValue(120)"|""|70|0|0|0       #HauptmenueStatusZeile_Zeit
+5012|0|"(EI==0)"|"SN[1].getValue(121)"|""|71|0|0|0       #Haupmenue_AHP_Stufe
+5012|0|"(EI==0)"|"SN[1].getValue(122)"|""|72|0|0|0       #Hauptmenue_AHP_Temp
+5012|0|"(EI==0)"|"SN[1].getValue(123)"|""|73|0|0|0       #Hauptmenue_AHP_Zeit
+5012|0|"(EI==0)"|"SN[1].getValue(124)"|""|74|0|0|0       #SH_BWW
+5012|0|"(EI==0)"|"SN[1].getValue(125)"|""|75|0|0|0       #SH_HZ
+5012|0|"(EI==0)"|"SN[1].getValue(126)"|""|76|0|0|0       #SH_MK1
+5012|0|"(EI==0)"|"SN[1].getValue(127)"|""|77|0|0|0       #SH_MK2
+5012|0|"(EI==0)"|"SN[1].getValue(128)"|""|78|0|0|0       #Einst_Kurzprogramm
+5012|0|"(EI==0)"|"SN[1].getValue(134)"|""|79|0|0|0       #AktuellerTimeStamp
+5012|0|"(EI==0)"|"SN[1].getValue(137)"|""|80|0|0|0       #Temp_TFB3
+5012|0|"(EI==0)"|"SN[1].getValue(140)"|""|81|0|0|0       #FP3_Out
+5012|0|"(EI==0)"|"SN[1].getValue(141)"|""|82|0|0|0       #Time_AbtIn
+5012|0|"(EI==0)"|"SN[1].getValue(144)"|""|83|0|0|0       #SH_SW
+5012|0|"(EI==0)"|"SN[1].getValue(145)"|""|83|0|0|0       #Zaehler BetrZeit SH SW
+5012|0|"(EI==0)"|"SN[1].getValue(147)"|""|84|0|0|0       #AnalogueIn 
+5012|0|"(EI==0)"|"SN[1].getValue(151)"|""|85|0|0|0       #WMZ_Heizung
+5012|0|"(EI==0)"|"SN[1].getValue(152)"|""|86|0|0|0       #WMZ_Brauchwasser
+5012|0|"(EI==0)"|"SN[1].getValue(154)"|""|87|0|0|0       #WMZ_Seit
+5012|0|"(EI==0)"|"SN[1].getValue(155)"|""|88|0|0|0       #WMZ_Durchfluss
+5012|0|"(EI==0)"|"SN[1].getValue(158)"|""|89|0|0|0       #Time Heissgas
+5012|0|"EC[5]"|"SN[1].setUpdateInterval(EN[5])"|""|0|0|0|0	
+5012|0|"EC[2]"|"SN[1].setTemp(EN[3])"|""|0|0|0|0
+5012|0|"EC[6]"|"SN[1].setFhbTemp(EN[7])"|""|0|0|0|0
